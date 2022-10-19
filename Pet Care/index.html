@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pet Form</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Merriweather:ital@0;1&family=Montserrat:wght@100;400;900&family=Tangerine:wght@400;700&family=Ubuntu&display=swap"
+                rel="stylesheet">
+</head>
+
+<body>
+        <div class="container">
+                <div class="head">
+                        <img id="logo" src="./petLogo.jpg" alt="Logo">
+                        <h1>Pet Care Foundation</h1>
+                </div>
+                <h2>Survey Form</h2>
+                <h3>Pet Details</h3>
+                <form id="petForm">
+                        <select name="type" id="type" class="input selectInput" required>
+                                <option value="" disabled selected>Select Pet Type</option>
+                                <option value="dog" class="selectInput">Dog</option>
+                                <option value="cat" class="selectInput">Cat</option>
+                                <option value="bird" class="selectInput">Bird</option>
+                                <option value="other" class="selectInput">Other</option>
+                        </select>
+                        <br>
+                        <input type="text" name="name" id="name" class="input" placeholder="Enter Your Pet's Name" required>
+                        <br>
+                        <input type="number" name="age" id="age" class="input" placeholder="Enter Your Pet's Age" required>
+                        <br>
+                        <input type="number" name="weight" id="weight" class="input" placeholder="Enter Your Pet's Weight" required>
+                        <br>
+                        <input type="text" name="like" id="like" class="input" placeholder="Enter What Your Pet Likes" required>
+                        <br>
+                        <input type="submit" name="submit" id="submit">
+                        <input type="reset" name="reset" id="reset">
+                </form>
+        </div>
+
+        <script src="./script.js"></script>
+</body>
+
+</html>
