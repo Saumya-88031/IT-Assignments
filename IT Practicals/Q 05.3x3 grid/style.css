@@ -1,0 +1,37 @@
+body{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        background: #ffffff;
+        color: rgb(0, 0, 0);
+        align-items: center;
+        margin: 0 auto;
+        line-height: 2;
+        font-family: cursive;
+}
+
+hr{
+        width: 40%;
+}
+
+.grid{
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 1.25rem 0 4rem;
+}
+
+button{
+        padding: 1.7rem 2rem;
+        background-color: #488FB1;
+        color: whitesmoke;
+        font-size: 1.25rem;
+        border: none;
+        border-radius: 40px;
+        margin: 10px;
+}
+
+button:hover{
+        background: #71bde0;
+        cursor: pointer;
+}

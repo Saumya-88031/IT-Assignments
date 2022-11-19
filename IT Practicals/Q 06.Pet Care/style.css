@@ -1,0 +1,93 @@
+/*
+font-family: 'Allura', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Tangerine', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body{
+        font-family: 'Montserrat', sans-serif;
+        background-color: #406882;
+        color: whitesmoke;
+        margin: 0 auto;
+        width: 70%;
+        align-items: center;
+}
+
+#logo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+}
+
+.head>h1{
+        float: right;
+        text-align: left;
+        position: absolute;
+        top: 0.9rem;
+        left: 26rem;
+        font-size: 3rem;
+}
+
+h2{
+        font-size: 2.5rem;
+}
+
+h3{
+        font-size: 2rem;
+}
+
+form{
+        margin: 2rem 2rem 2rem 0;
+        background-color: #5d849e;
+        padding: 4rem;
+}
+
+#typeLabel{
+        margin: 1rem 1rem 1rem 0;
+        font-size: 1.7rem;
+}
+
+
+.input{
+        width: 30%;
+        height: 2rem;
+        margin: 2rem 2rem 2rem 0;
+        background: #ffffff;
+        outline: none;
+        color: #064663;
+        border: none;
+        border-radius: 40px;
+}
+
+input{
+        padding: 1rem 2rem;
+}
+
+#submit,#reset{
+        padding: 1.2rem 3.5rem;
+        margin: 2rem 1.7rem 2rem 1rem;
+        border: none;
+        border-radius: 40px;
+        font-size: 1rem;
+        font-weight: 600;
+}
+
+#submit{
+        background: #4FD3C4;
+        transition: all 0.2s ease-in-out;
+}
+#submit:hover{
+        cursor: pointer;
+        background: #77e7da;
+}
+
+#reset{
+        background: #D3DEDC;
+        transition: all 0.2s ease-in-out;
+}
+#reset:hover{
+        cursor: pointer;
+        background: #dedfde;
+}
